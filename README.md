@@ -3,6 +3,19 @@
 
 ### Notice:  This project is currently under development and will change.  Until this notice disappears things will likely not work as expected.
 
+## Project Task List
+- [X] Finish Rough Draft of README.md - Project Information
+- [ ] DNF Packages Intall - Scripted & Tested
+- [ ] DNF Packages Remove - Scripted & Tested
+- [ ] FlatPak's Install - Scripted & Tested
+- [ ] Gnome Extensions Install - Scripted & Tested
+- [ ] Network Shares Setup - Scripted & Tested
+- [ ] OpenVPN Setup - Scripted & Tested
+- [ ] Tailscale - Scripted & Tested
+- [ ] .local/bin Script Copy - Scriped & Testedt
+- [ ] Import Settings - Scripted & Tested
+- [ ] Final Draft of README.md - Project Completion
+
 ## Project Overview
 
 The Fedora Setup Interactive project is a post install script that simplies and automates the setup of the current version of Fedora (Fedora 42).  The script will provide the setup of the following:
@@ -45,9 +58,9 @@ Before you start be sure to update your system.  I usually open software, go to 
 
 ## Requirements
 
-- Installation of Fedora 42
--  Tailscale - Can be installed with other DNF Packages
--  All other software is included with the standard install of Fedora 42
+- Installation of Fedora 42 - Includes packages needed for most of the script.
+-  Tailscale - Can be installed with other DNF Packages section of script.
+
 
 
 ## Credits/Influences
@@ -56,6 +69,10 @@ There are a few people who I give credit to for motivating me to work on this pr
 
 - Jorge Castro - [Project BlueFin](https://projectbluefin.io/) & [Jorge Castro Website](https://www.ypsidanger.com/)  Project BlueFin is a project/build, not a distro.  It is his build of Linux that he uses everyday.  I tried it out and decided that it was not for me, but it did change how I use Linux and I have not looked back.  Thank you Jorge!
 - Louis Rossmann - [Louis Rossmann linktr.ee](https://linktr.ee/louisrossmann) I have watched his YouTube videos for years.  We have a lot in common.  The highlights are the importance of Open Source Software.  The importance of not only being able to repair your devices, but to be able to own them as well.  They should not own you and the software you use should not be data mining everything you do to sell it to anyone who wants to pay for it.
+- Seuros - [Seuros Blog](https://www.seuros.com/blog/)  I found his blog recently and enjoyed reading the tales about being an OSS Dev, his AWS account issues, and his other posts on the current state of Tech.  Every post I have read so far I have been able to relate to in some way and makes me feel like I am not alone when I encounter certain scenarios.  We do not hear about the horror stories enough!  Through his blog I have found inspiration to do this project and grow from their with future projects.
+
+## Future Developments - Post Completion
+GUI Version of the Install?
 
 
 ## License
